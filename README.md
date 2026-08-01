@@ -123,9 +123,10 @@ Artemyx visualizes officially reported crime statistics. The platform does not r
 
 Developed by the **Artemyx Team**.
 
-Project Lead:
+**Project Lead**
 - Sayooj Manikandan
-Team members:
+
+**Core Team**
 - Aadhilakshmi TN
 - Akshay KP
 - Anamika
