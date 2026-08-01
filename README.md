@@ -118,21 +118,17 @@ No personally identifiable information or victim-specific data will be collected
 Artemyx visualizes officially reported crime statistics. The platform does not represent real-time incidents or the complete prevalence of crimes against women. Data accuracy depends on the source datasets published by relevant authorities.
 
 ---
+## 👥 Team
 
-## 👨‍💻 Team
-
-Developed by the **Artemyx Team**.
-
-**Project Lead**
-- Sayooj Manikandan
-
-**Core Team**
-- Aadhilakshmi TN
-- Akshay KP
-- Anamika
-- Anjali
-- Haritha
-- Hridhya TB
+| Name | Role |
+|------|------|
+| Sayooj Manikandan | Project Lead |
+| Aadhilakshmi TN | Core Team Member |
+| Akshay KP | Core Team Member |
+| Anamika | Core Team Member |
+| Anjali | Core Team Member |
+| Haritha | Core Team Member |
+| Hridhya TB | Core Team Member |
 ---
 
 ## ⭐ Support
