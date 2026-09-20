@@ -1,0 +1,153 @@
+.about-page {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  padding: 60px 8%;
+  box-sizing: border-box;
+}
+
+/* Hero */
+
+.about-hero {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 70px;
+}
+
+.about-hero h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.about-hero > p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.about-hero .intro {
+  color: #bdbdbd;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+/* Sections */
+
+.about-section {
+  max-width: 1000px;
+  margin: 0 auto 45px;
+  padding: 30px;
+  background: #111;
+  border: 1px solid #2b2b2b;
+  border-radius: 16px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  color: #cfcfcf;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* Lists */
+
+.about-section ul {
+  padding-left: 25px;
+}
+
+.about-section li {
+  color: #cfcfcf;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* Features */
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.features div {
+  background: #1a1a1a;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #292929;
+  color: #ddd;
+}
+
+/* Technology */
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.tech-grid > div {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.tech-grid h3 {
+  margin-bottom: 12px;
+}
+
+/* Team */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.team-grid div {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #292929;
+}
+
+.team-grid h3 {
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+.team-grid p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Disclaimer */
+
+.disclaimer {
+  margin-bottom: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .about-page {
+    padding: 40px 5%;
+  }
+
+  .about-hero h1 {
+    font-size: 38px;
+  }
+
+  .features,
+  .tech-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section {
+    padding: 22px;
+  }
+}
