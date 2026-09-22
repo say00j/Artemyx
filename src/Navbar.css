@@ -1,20 +1,66 @@
 .navbar {
-  height: 70px;
-  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 15px 30px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+
+  position: relative;
 }
 
 .logo {
-  color: white;
   margin: 0;
-  font-size: 24px;
 }
 
 .about-link {
-  color: white;
   text-decoration: none;
-  font-size: 18px;
+  color: #000;
+}
+
+/* Hamburger button */
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+
+  background-color: white;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+  .about-link {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
 }
