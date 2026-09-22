@@ -1,19 +1,8 @@
 
-import './App.css'
-import keralaImage from './assets/kerala.jpeg'
+import StatePage from './StatePage'
 
 function App() {
-  return (
-    <div className="state-page">
-      <h1>State Page</h1>
-
-      <img
-        src={keralaImage}
-        alt="Kerala"
-        className="kerala-image"
-      />
-    </div>
-  )
+  return <StatePage />
 }
 
 export default App

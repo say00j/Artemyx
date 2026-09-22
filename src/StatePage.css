@@ -1,0 +1,35 @@
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.state-page {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.state-page h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.kerala-image {
+  width: 400px;
+  max-width: 80%;
+  height: auto;
+}
+
